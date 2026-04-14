@@ -1,0 +1,31 @@
+body {
+  background-color: #1D4221; /* Fundo verde escuro */
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Melhor usar 100% da altura da tela */
+  margin: 0;
+}
+
+button {
+  background-color: #64A712;
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4d7f0d; /* Tom mais escuro no hover */
+}
+
+h1 {
+  color: #FF6347; /* Cor do título */
+  text-align: center;
+}
